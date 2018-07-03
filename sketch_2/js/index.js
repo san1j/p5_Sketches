@@ -19,7 +19,7 @@ class Bubble{
 var bubbles =[];
 
 function setup(){
-  createCanvas(600,600);
+  createCanvas(windowWidth,windowHeight);
   background(0);
   for(let i=0;i<35;i++){
     bubbles.push(new Bubble( 300,10));
