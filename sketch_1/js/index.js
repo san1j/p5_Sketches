@@ -6,7 +6,7 @@ var circle = {
 };
 
 function setup() { 
-  createCanvas(800, 600);
+  createCanvas(windowWidth,windowHeight);
   background(0);
 } 
 
