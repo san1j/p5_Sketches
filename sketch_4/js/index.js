@@ -28,14 +28,14 @@ class Particle{
 
 function partyPopper(){
   fill(255,223,0);
-  triangle(width/4,height*0.55,width*0.75,height*0.55,width/2,height);
+  triangle(width/3,height*0.55,width*0.65,height*0.55,width/2,height);
 }
 
 
 let particles = new Array(50);
 
 function setup(){
-  createCanvas(600,600);
+  createCanvas(windowWidth,windowHeight);
   noStroke();
   particles = particles.fill().map(x=> new Particle());
 }
