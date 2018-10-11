@@ -20,14 +20,15 @@ var bubbles =[];
 
 function setup(){
   createCanvas(windowWidth,windowHeight);
+  ellipseMode(CENTER);
   background(0);
   for(let i=0;i<35;i++){
-    bubbles.push(new Bubble( 300,10));
+    bubbles.push(new Bubble( width/2,height/8));
   }
 }
 
 function draw(){
-   noFill();
+  noFill();
   stroke(255);
   for(let i=0;i<bubbles.length;i++){
     bubbles[i].display();
