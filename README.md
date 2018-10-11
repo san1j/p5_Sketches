@@ -1,2 +1,4 @@
 # p5_Sketches
-simple sketches made in p5.js
+Simple sketches made using the p5.js library
+
+Click on individial sub projects for links to the sketches
